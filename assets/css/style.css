@@ -64,13 +64,20 @@ body {
     border-left-width: 2px;
     border-left-style: solid;
     border-left-color: #cccccc;
-    padding: 20px;
+    
     padding-left: 10px;
     background-color: #ffffff;
-    margin: auto;
+    margin:auto ;
+     
     width: 960px;
     overflow: auto;
     font-size: 22px;
+    
+}
+
+/* fits the screen no matter what size you're viewing on */
+*{
+    box-sizing: border-box;
 }
 
 .background {
@@ -78,7 +85,8 @@ body {
     background-color: #dddddd;
     margin: 0%;
     width: 100%;
-    padding: 175px 0;
+    padding: 100px 0;
+    
 }
 
 .bodytext {
