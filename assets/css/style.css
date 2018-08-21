@@ -7,7 +7,7 @@
 }
 
 #fulltop {
-    border-bottom-width: 2px;
+    border-bottom-width: 4px;
     border-bottom-style: solid;
     border-color: #cccccc;
     width: 100%;
@@ -16,10 +16,19 @@
     overflow: auto;
 }
 
-;
 body {
     margin: auto;
     background-color: #ffffff;
+}
+
+.Name {
+    float: left;
+    background-color: #4aaaa5;
+    padding: 20px;
+    overflow: auto;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white
 }
 
 #background {
@@ -28,28 +37,21 @@ body {
     clear: both;
 }
 
-#about {
-    float: right;
-    margin: 10px;
-    color: #cccccc;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+* {
+    box-sizing: border-box;
 }
 
-.Name {
-    float: left;
+.tabs a {
+    float: right;
+    color: #cccccc;
     padding: 20px;
-    font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #4aaaa5;
-    color: white
+    text-decoration: none;
 }
 
-#contact {
-    float: right;
-    margin: 20px;
-    color: #cccccc;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 0;
+.tabs a:hover {
+    background-color: #ddd;
+    color: black;
 }
 
 #portfolio {
@@ -64,7 +66,7 @@ body {
     border-left-width: 2px;
     border-left-style: solid;
     border-left-color: #cccccc;
-    padding: 20px;
+    padding: 31px;
     padding-left: 10px;
     background-color: #ffffff;
     margin: auto;
@@ -81,11 +83,28 @@ body {
     padding: 175px 0;
 }
 
+#submitB {
+    color: white;
+    background-color: #4aaaa5;
+    padding: 10px 20px;
+}
+
 .bodytext {
     overflow: auto;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+}
+
+#bodytextP {
+    padding: 200px
+}
+
+form {
+    margin-left: 10px;
+    width: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cccccc;
 }
 
 img {
@@ -101,11 +120,19 @@ footer {
     background-color: #666666;
     bottom: 0;
     width: 100%;
-    padding: 10px;
-    margin: 0%;
+    padding: 20px;
     text-align: center;
+    margin-bottom: -20px;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+    border-top-width: 10px;
 }
 
 h2 {
     color: #4aaaa5;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #cccccc
 }
