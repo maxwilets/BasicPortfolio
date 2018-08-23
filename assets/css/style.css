@@ -1,14 +1,11 @@
 #top {
    
-    background: #ffffff;
-    width: 100%;
-    margin-bottom: 0%;
     width: 960px;
     margin: auto;
 }
 
 #fulltop {
-   
+    position: fixed;
     border-bottom-width: 4px;
     border-bottom-style: solid;
     border-color: #cccccc;
@@ -16,19 +13,18 @@
     background-color: #ffffff;
     margin: 0;
     overflow: auto;
-    
+    z-index:1;
 }
-
 body {
     margin: auto;
-    background-color: #ffffff;
+    background:;
 }
+
 
 .Name {
     float: left;
     background-color: #4aaaa5;
     padding: 20px;
-    overflow: auto;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white
@@ -81,17 +77,16 @@ body {
     
 }
 
-/* fits the screen no matter what size you're viewing on */
-*{
-    box-sizing: border-box;
-}
+
+
 
 .background {
     position: absolute;
-    background-color: #dddddd;
+    background: url(assets\images\qbkls.png);
     margin: 0%;
     width: 100%;
-    padding: 100px 0;
+    padding: 150px 0;
+    background-color: #dddddd;
     
 }
 
@@ -109,7 +104,96 @@ body {
 }
 
 #bodytextP {
-    padding: 200px
+    padding:200px;
+}
+.top{
+    overflow: auto;
+    width: 800px;
+    position: relative;
+    bottom: 130px;
+    right: 100px;
+}
+#dog{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 40px
+}
+#rpg{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 40px;
+}
+#dogTxt{
+    color: #eeeeee;
+    font-size: 18px;
+    background: #4aaaa5;
+    border: solid 1px black;
+    width: 270px;
+    padding: 15px;
+    position:relative;
+    left: 335px;
+    bottom:270px;
+    text-align: center;
+}
+#rpgTxt{
+    color: #eeeeee;
+    font-size: 18px;
+    background: #4aaaa5;
+    padding: 15px;
+    width: 270px;
+    text-align: center;
+    position:relative;
+    bottom: 220px;
+    right: 45px;
+    border: solid 1px black;
+
+}
+#musicTxt{
+    color: #eeeeee;
+    font-size: 18px;
+    background: #4aaaa5;
+    padding: 15px;
+    width: 270px;
+    text-align: center;
+    position: relative;
+    bottom: 170px;
+    right: 45px;
+    border: solid 1px black;
+    
+}
+#coolTxt{
+    color: #eeeeee;
+    font-size: 18px;
+    background: #4aaaa5;
+    padding: 15px;
+    width: 270px;
+    text-align: center;
+    position: relative;
+    bottom: 223px;
+    left: 335px;
+    border: solid 1px black
+}
+.bottom{
+    overflow: auto;
+    width: 800px;
+    position: relative;
+    right: 100px;
+    bottom: 80px;
+    
+}
+#music{
+    width: 300px;
+    height: 300px;
+    float:left;
+    margin: 40px;
+}
+#cool{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 40px
 }
 
 form {
